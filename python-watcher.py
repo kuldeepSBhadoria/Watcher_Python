@@ -87,9 +87,9 @@ def mail():
 def message(i):
 	client = nexmo.Client(key='5ef03909', secret='omiBgsZg5cljMQoT')
 	if(i == 1):
-		client.send_message({ 'from': '18622296358',   'to': '16504479401',   'text': 'X7-3 Drive missing',})
+		client.send_message({ 'from': '18622296358',   'to': '165044xx9401',   'text': 'X7-3 Drive missing',})
 	elif(i == 2):
-		client.send_message({ 'from': '18622296358',   'to': '16504479401',   'text': 'X7-3 Drive Link speed ..',})
+		client.send_message({ 'from': '18622296358',   'to': '16504xx9401',   'text': 'X7-3 Drive Link speed ..',})
 
 if __name__ == '__main__':
     w = Watcher()
